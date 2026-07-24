@@ -8,7 +8,7 @@ class PasswordGen(ABC):
     @abstractmethod
     def password_generator(self):
         pass
-
+#abs abstract
 class AlfabetPasswordGen(PasswordGen):
     def __init__(self,lenght):
         self.lenght=lenght
